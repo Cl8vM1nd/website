@@ -1,0 +1,274 @@
+/*!
+ *       __ _____                     ________                              __
+ *      / // _  /__ __ _____ ___ __ _/__  ___/__ ___ ______ __ __  __ ___  / /
+ *  __ / // // // // // _  // _// // / / // _  // _//     // //  \/ // _ \/ /
+ * /  / // // // // // ___// / / // / / // ___// / / / / // // /\  // // / /__
+ * \___//____ \\___//____//_/ _\_  / /_//____//_/ /_/ /_//_//_/ /_/ \__\_\___/
+ *           \/              /____/                              version 0.11.23
+ * http://terminal.jcubic.pl
+ *
+ * This file is part of jQuery Terminal.
+ *
+ * Copyright (c) 2011-2016 Jakub Jankiewicz <http://jcubic.pl>
+ * Released under the MIT license
+ *
+ * Date: Sun, 08 Jan 2017 11:44:40 +0000
+ */
+
+
+/* cyrillic */
+@font-face {
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Neucha'), url(../../../fonts/neucha/cyrillic.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Neucha'), url(../../../fonts/neucha/latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+    font-family: 'Neucha', cursive;
+}
+
+.terminal .terminal-output .format, .cmd .format,
+.cmd .prompt, .cmd .prompt div, .terminal .terminal-output div div{
+    display: inline-block;
+    font-size: 13pt;
+    font-family: 'Neucha', cursive;
+}
+.terminal h1, .terminal h2, .terminal h3, .terminal h4, .terminal h5, .terminal h6, .terminal pre, .cmd {
+    margin: 0;
+}
+.terminal h1, .terminal h2, .terminal h3, .terminal h4, .terminal h5, .terminal h6 {
+    line-height: 1.2em;
+}
+/*
+.cmd .mask {
+    width: 10px;
+    height: 11px;
+    background: black;
+    z-index: 100;
+}
+*/
+.cmd .clipboard {
+    position: absolute;
+    left: -16px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    /* this seems to work after all on Android */
+    /*left: -99999px;
+    clip: rect(1px,1px,1px,1px);
+    /* on desktop textarea appear when paste */
+    /*
+    opacity: 0.01;
+    filter: alpha(opacity = 0.01);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.01);
+    */
+    background: transparent;
+    border: none;
+    color: transparent;
+    outline: none;
+    padding: 0;
+    resize: none;
+    z-index: 0;
+    overflow: hidden;
+}
+.terminal .error {
+    color: #f00;
+}
+.terminal {
+    padding: 10px;
+    position: relative;
+    /*overflow: hidden;*/
+    overflow: auto;
+}
+.cmd {
+    padding: 0;
+    height: 1.3em;
+    position: relative;
+    /*margin-top: 3px; */
+}
+.terminal .inverted, .cmd .inverted, .cmd .cursor.blink {
+    background-color: #ffffff;
+    color: #000;
+}
+.cmd .cursor.blink {
+    background: #00fbff;
+    -webkit-animation: terminal-blink 1s infinite steps(1, start);
+    -moz-animation: terminal-blink 1s infinite steps(1, start);
+    -ms-animation: terminal-blink 1s infinite steps(1, start);
+    animation: terminal-blink 1s linear steps(1, start);
+    -webkit-box-shadow: 0 0 5px rgba(0,100,0,50);
+    -moz-box-shadow: 0 0 5px rgba(0,100,0,50);
+    -ms-box-shadow: 0 0 5px rgba(0,100,0,50);
+    -o-box-shadow: 0 0 5px rgba(0,100,0,50);
+    box-shadow: 0 0 5px rgba(0,100,0,50);
+}
+@keyframes terminal-blink {
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes terminal-blink {
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-ms-keyframes terminal-blink {
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes terminal-blink {
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.terminal .terminal-output div div, .cmd .prompt {
+    display: block;
+    line-height: 15px;
+    height: auto;
+    height:25px;
+}
+.cmd .prompt {
+    float: left;
+    color: #00fbff;
+}
+.terminal, .cmd {
+    /*font-family: FreeMono, monospace; this don't work on Android */
+
+    background: url("../../../img/bg.jpg") no-repeat;
+    background-attachment: fixed;
+
+    font-size: 12pt;
+    line-height: 14px;
+    color: #ffffff;
+    font-family: 'Neucha', cursive;
+}
+.terminal-output > div {
+    /*padding-top: 3px;*/
+    min-height: 14px;
+}
+.terminal-output > div > div * {
+    word-wrap: break-word; /* when echo html */
+}
+.terminal .terminal-output div span {
+    display: inline-block;
+}
+.cmd span {
+    float: left;
+    /*display: inline-block; */
+}
+/* fix double style of selecting text in terminal */
+.terminal-output span, .terminal-output a, .cmd div, .cmd span, .terminal td,
+.terminal pre, .terminal h1, .terminal h2, .terminal h3, .terminal h4,
+.terminal h5, .terminal h6 {
+    -webkit-touch-callout: initial;
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+}
+.terminal, .terminal-output, .terminal-output div {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* firefox hack */
+@-moz-document url-prefix() {
+    .terminal, .terminal-output, .terminal-output div {
+        -webkit-touch-callout: initial;
+        -webkit-user-select: initial;
+        -khtml-user-select: initial;
+        -moz-user-select: initial;
+        -ms-user-select: initial;
+        user-select: initial;
+    }
+}
+.terminal table {
+    border-collapse: collapse;
+}
+.terminal td {
+    border: 1px solid #ffffff;
+}
+.terminal h1::-moz-selection,
+.terminal h2::-moz-selection,
+.terminal h3::-moz-selection,
+.terminal h4::-moz-selection,
+.terminal h5::-moz-selection,
+.terminal h6::-moz-selection,
+.terminal pre::-moz-selection,
+.terminal td::-moz-selection,
+.terminal .terminal-output div div::-moz-selection,
+.terminal .terminal-output div span::-moz-selection,
+.terminal .terminal-output div div a::-moz-selection,
+.cmd div::-moz-selection,
+.cmd > span::-moz-selection,
+.cmd .prompt span::-moz-selection {
+    background-color: #ffffff;
+    color: #000;
+}
+/* this don't work in Chrome
+.terminal tr td::-moz-selection {
+    border-color: #000;
+}
+.terminal tr td::selection {
+    border-color: #000;
+}
+*/
+.terminal h1::selection,
+.terminal h2::selection,
+.terminal h3::selection,
+.terminal h4::selection,
+.terminal h5::selection,
+.terminal h6::selection,
+.terminal pre::selection,
+.terminal td::selection,
+.terminal .terminal-output div div::selection,
+.terminal .terminal-output div div a::selection,
+.terminal .terminal-output div span::selection,
+.cmd div::selection,
+.cmd > span::selection,
+.cmd .prompt span::selection {
+    background-color: #ffffff;
+    color: #000;
+}
+.terminal .terminal-output div.error, .terminal .terminal-output div.error div {
+    color: red;
+}
+.tilda {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+}
+.clear {
+    clear: both;
+}
+.terminal a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.terminal a:hover {
+    color: #00fbff;
+}
+
+
