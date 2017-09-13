@@ -3,7 +3,7 @@ apiVersion: apps/v1beta1
 metadata:
   name: website
 spec:
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
