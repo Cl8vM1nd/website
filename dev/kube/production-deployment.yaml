@@ -1,21 +1,17 @@
 kind: Deployment
 apiVersion: apps/v1beta1
 metadata:
-  name: website-deployment
+  name: website
 spec:
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
-        app: my-website
+        app: website
     spec:
       containers:
       - name: nginx
         image: eu.gcr.io/clevmindblog/website:2
-        resources:
-          limits:
-            memory: "500Mi"
-            cpu: "100m"
         imagePullPolicy: Always
         ports:
         -  containerPort: 80
