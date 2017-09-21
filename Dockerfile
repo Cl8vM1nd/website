@@ -22,8 +22,6 @@ RUN mkdir -p /var/www/website
 COPY website/ /var/www/website
 COPY dev/nginx/website /etc/nginx/sites-enabled/website
 
-RUN certbot --nginx
-
 # Expose ports
 EXPOSE 80
 

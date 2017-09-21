@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: eu.gcr.io/clevmindblog/website:2
+        image: eu.gcr.io/clevmindblog/website:v3
         imagePullPolicy: Always
         ports:
         -  containerPort: 80
