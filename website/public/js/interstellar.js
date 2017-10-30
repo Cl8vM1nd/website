@@ -1,1 +1,116 @@
-var _0x29bb=["\x68\x69\x64\x65","\x2E\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x66\x61\x64\x65\x4F\x75\x74","\x23\x70\x72\x65\x6C\x6F\x61\x64\x65\x72","\x65\x6E","\x68\x6F\x73\x74","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x69\x66\x61\x69\x73\x74\x2E\x63\x6F\x6D","\x63\x75\x72\x72\x4C\x61\x6E\x67","\x72\x75","\x68\x65\x6C\x70","\x6C\x61\x6E\x67","\x68\x74\x6D\x6C","\x23\x68\x65\x6C\x70","\x48\x69\x21\x57\x61\x6E\x74\x20\x74\x6F\x20\x6B\x6E\x6F\x77\x20\x61\x62\x6F\x75\x74\x20\x6D\x65\x3F\x4A\x75\x73\x74\x20\x74\x79\x70\x65\x20\x77\x68\x61\x74\x20\x61\x72\x65\x20\x79\x6F\x75\x20\x6C\x6F\x6F\x6B\x69\x6E\x67\x20\x66\x6F\x72\x3F","\x46\x61\x69\x73\x74\x20\x49\x6C\x79\x61","\x32\x34","\x52\x75\x73\x73\x69\x61\x2C\x20\x4B\x72\x61\x73\x6E\x6F\x64\x61\x72","\x45\x6E\x67\x6C\x69\x73\x68\x2C\x47\x65\x72\x6D\x61\x6E\x2C\x52\x75\x73\x73\x69\x61\x6E","\x49\x20\x61\x6D\x20\x61\x20\x70\x61\x73\x73\x69\x6F\x6E\x61\x74\x65\x20\x42\x61\x63\x6B\x65\x6E\x64\x20\x44\x65\x76\x65\x6C\x6F\x70\x65\x72\x20\x77\x69\x74\x68\x20\x37\x20\x79\x65\x61\x72\x73\x20\x65\x78\x70\x65\x72\x69\x65\x6E\x63\x65\x2E\x0A\x09\x09","\x49\x20\x61\x6D\x20\x72\x65\x61\x6C\x20\x66\x61\x6E\x20\x6F\x66\x20\x70\x65\x72\x66\x65\x63\x74\x69\x6F\x6E\x69\x73\x74\x20\x63\x6F\x64\x65\x2E\x20\x54\x72\x79\x20\x74\x6F\x20\x75\x73\x65\x20\x61\x6C\x6C\x20\x6C\x61\x73\x74\x20\x75\x73\x65\x66\x75\x6C\x20\x66\x65\x61\x74\x75\x72\x65\x73\x20\x69\x66\x20\x49\x20\x63\x61\x6E\x2E\x0A\x09\x09","\x49\x6E\x20\x6D\x79\x20\x66\x72\x65\x65\x20\x74\x69\x6D\x65\x20\x79\x6F\x75\x20\x63\x61\x6E\x20\x66\x69\x6E\x64\x20\x6D\x65\x20\x73\x6F\x6D\x65\x77\x68\x65\x72\x65\x20\x6F\x6E\x20\x6C\x61\x72\x61\x63\x61\x73\x74\x73\x2E\x63\x6F\x6D","\x43\x52\x49\x4D\x45\x41\x4E\x20\x46\x45\x44\x45\x52\x41\x4C\x20\x55\x4E\x49\x56\x45\x52\x53\x49\x54\x59\x2C\x20\x42\x2E\x53\x63\x2E\x20\x4D\x61\x74\x68\x65\x6D\x61\x74\x69\x63\x73\x20\x61\x6E\x64\x20\x49\x6E\x66\x6F\x72\x6D\x61\x74\x69\x63\x73\x2E","\x0A\x09\x09\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x0A","\x09\x09\x57\x45\x42\x3A\x09\x09\x0A\x09\x09","\x48\x74\x6D\x6C\x35\x2C\x43\x73\x73\x33\x2C\x4A\x61\x76\x61\x53\x63\x72\x69\x70\x74\x2C\x4A\x71\x75\x65\x72\x79\x2C\x41\x6A\x61\x78\x2C\x50\x48\x50\x37\x2C\x44\x6F\x63\x74\x72\x69\x6E\x65\x32\x2C\x4D\x79\x73\x71\x6C\x0A","\x09\x09\x4F\x53\x3A\x20\x55\x62\x75\x6E\x74\x75\x2C\x20\x46\x65\x64\x6F\x72\x61\x2C\x20\x4D\x61\x63\x4F\x73\x0A","\x09\x09\x46\x72\x61\x6D\x65\x77\x6F\x72\x6B\x73\x3A\x20\x4C\x61\x72\x61\x76\x65\x6C\x2C\x53\x69\x6C\x65\x78\x2C\x59\x69\x69\x0A","\x09\x09\x49\x6E\x73\x74\x72\x75\x6D\x65\x6E\x74\x73\x3A\x20\x50\x68\x70\x53\x74\x6F\x72\x6D\x2C\x53\x75\x62\x6C\x69\x6D\x65\x54\x65\x78\x74\x2C\x47\x69\x74","\x09\x09\x41\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x3A\x09\x09\x0A\x09\x09","\x4C\x61\x6E\x67\x75\x61\x67\x65\x73\x3A\x20\x43\x2B\x2B\x2C\x4A\x61\x76\x61\x0A","\x09\x09\x49\x6E\x73\x74\x72\x75\x6D\x65\x6E\x74\x73\x3A\x20\x56\x69\x73\x75\x61\x6C\x53\x74\x75\x64\x69\x6F\x2C\x49\x6E\x74\x65\x6C\x6C\x69\x4A\x20\x49\x44\x45\x41","\x0A\x09\x09\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x66\x61\x63\x65\x62\x6F\x6F\x6B\x2E\x63\x6F\x6D\x2F\x63\x6C\x38\x76\x6D\x31\x6E\x64","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x77\x69\x74\x74\x65\x72\x2E\x63\x6F\x6D\x2F\x63\x6C\x38\x76\x6D\x31\x6E\x64","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x76\x6B\x2E\x63\x6F\x6D\x2F\x63\x6C\x38\x76\x6D\x31\x6E\x64","\x63\x6C\x65\x76\x6D\x69\x6E\x64\x40\x67\x6D\x61\x69\x6C\x2E\x63\x6F\x6D","\x68\x74\x74\x70\x3A\x2F\x2F\x69\x66\x61\x69\x73\x74\x2E\x63\x6F\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x62\x69\x74\x62\x75\x63\x6B\x65\x74\x2E\x6F\x72\x67\x2F\x43\x6C\x38\x76\x6D\x31\x6E\x64\x2F\x70\x68\x6F\x6E\x65\x61\x70\x70\x2F\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x62\x69\x74\x62\x75\x63\x6B\x65\x74\x2E\x6F\x72\x67\x2F\x43\x6C\x38\x76\x6D\x31\x6E\x64\x2F\x63\x61\x70\x74\x63\x68\x61\x2F\x73\x72\x63","\x50\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20\x42\x61\x63\x6B\x65\x6E\x64\x20\x44\x65\x76\x65\x6C\x6F\x70\x65\x72\x2E\x28\x31\x30\x2F\x32\x30\x31\x33\x20\x2D\x20\x30\x36\x2F\x32\x30\x31\x36\x29\x0A\x0A","\x09\x2A\x20\x48\x65\x72\x65\x20\x49\x20\x68\x61\x64\x20\x65\x78\x70\x65\x72\x69\x65\x6E\x63\x65\x20\x77\x69\x74\x68\x20\x47\x6F\x6F\x67\x6C\x65\x20\x4D\x61\x70\x73\x2C\x20\x4D\x56\x43\x2E\x0A","\x09\x2A\x20\x4F\x70\x65\x6E\x20\x63\x69\x74\x79\x20\x6F\x6E\x20\x4D\x61\x70\x2C\x20\x74\x68\x69\x73\x20\x69\x73\x20\x6F\x6E\x65\x20\x6F\x66\x20\x74\x68\x65\x20\x66\x65\x61\x74\x75\x72\x65\x73\x20\x77\x68\x69\x63\x68\x20\x49\x20\x68\x61\x64\x20\x69\x6D\x70\x6C\x65\x6D\x65\x6E\x74\x65\x64\x2E\x0A","\x09\x2A\x20\x44\x65\x76\x65\x6C\x6F\x70\x65\x64\x20\x62\x61\x63\x6B\x65\x6E\x64\x20\x70\x61\x72\x74\x20\x66\x6F\x72\x20\x74\x78\x74\x2E\x72\x70\x35\x2E\x72\x75\x0A","\x09\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x0A","\x50\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20\x42\x61\x63\x6B\x65\x6E\x64\x20\x44\x65\x76\x65\x6C\x6F\x70\x65\x72\x2E\x28\x30\x37\x2F\x32\x30\x31\x36\x20\x2D\x20\x6E\x6F\x77\x29\x0A\x0A","\x09\x2A\x20\x57\x6F\x72\x6B\x65\x64\x20\x61\x74\x20\x68\x75\x67\x65\x20\x61\x6D\x6F\x75\x6E\x74\x20\x6F\x66\x20\x66\x65\x61\x74\x75\x72\x65\x73\x20\x77\x68\x69\x63\x68\x20\x69\x6E\x63\x6C\x75\x64\x65\x73\x2C\x20\x70\x72\x6F\x66\x69\x6C\x65\x20\x69\x6E\x66\x6F\x72\x6D\x61\x74\x69\x6F\x6E\x2C\x20\x77\x65\x62\x73\x69\x74\x65\x20\x73\x74\x72\x75\x63\x74\x75\x72\x65\x2C\x20\x65\x74\x63\x2E\x0A","\x09\x2A\x20\x4D\x61\x64\x65\x20\x41\x50\x49\x20\x66\x6F\x72\x20\x61\x70\x70\x6C\x79\x2E\x6D\x65\x20\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x28\x61\x70\x70\x6C\x79\x2E\x6D\x65\x29\x2E\x0A","\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6D\x6D\x61\x6E\x64\x73\x5F\x68\x65\x61\x64\x65\x72\x22\x3E\x41\x76\x61\x69\x6C\x61\x62\x6C\x65\x20\x43\x6F\x6D\x6D\x61\x6E\x64\x73\x3A\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x3C\x2F\x62\x72\x3E","\x2D\x20\x77\x68\x6F\x61\x6D\x69\x3C\x2F\x62\x72\x3E","\x2D\x20\x70\x72\x6F\x6A\x65\x63\x74\x73\x3C\x2F\x62\x72\x3E","\x2D\x20\x65\x78\x70\x65\x72\x69\x65\x6E\x63\x65\x3C\x2F\x62\x72\x3E","\x2D\x20\x63\x6F\x6E\x74\x61\x63\x74","\x55\x6E\x6B\x6E\x6F\x77\x6E\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x20","\u041F\u0440\u0438\u0432\u0435\u0442\x21\u0427\u0442\u043E\x20\u0432\u044B\x20\u0445\u043E\u0442\u0438\u0442\u0435\x20\u043E\u0431\u043E\x20\u043C\u043D\u0435\x20\u0443\u0437\u043D\u0430\u0442\u044C\x3F","\u0424\u0430\u0438\u0441\u0442\x20\u0418\u043B\u044C\u044F","\x32\x33","\u0420\u043E\u0441\u0441\u0438\u044F\x2C\x20\u041A\u0440\u0430\u0441\u043D\u043E\u0434\u0430\u0440","\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439\x2C\x20\u041D\u0435\u043C\u0435\u0446\u043A\u0438\u0439\x2C\x20\u0420\u0443\u0441\u0441\u043A\u0438\u0439","\u042F\x20\u0443\u0432\u043B\u0435\u0447\u0435\u043D\u043D\u044B\u0439\x20\x57\x45\x42\x20\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\x20\u0441\x20\x37\x2D\u0438\u043C\x20\u043E\u043F\u044B\u0442\u043E\u043C\x2E\x0A\x09\x09","\u042F\x20\u0444\u0430\u043D\u0430\u0442\x20\u043F\u0435\u0440\u0444\u0435\u043A\u0446\u0438\u043E\u043D\u0438\u0441\u0442\u043A\u043E\u0433\u043E\x20\u043A\u043E\u0434\u0430\x2E\x20\u041F\u044B\u0442\u0430\u044E\u0441\u044C\x20\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C\x20\u0432\u0441\u0435\x20\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435\x20\u0444\u0438\u0447\u0438\x20\u043F\u043E\x20\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438\x2E\x0A\x09\x09","\u0412\x20\u043C\u043E\u0435\x20\u0441\u0432\u043E\u0431\u043E\u0434\u043D\u043E\u0435\x20\u0432\u0440\u0435\u043C\u044F\x2C\x20\u0432\u044B\x20\u0441\u043C\u043E\u0436\u0435\u0442\u0435\x20\u043D\u0430\u0439\u0442\u0438\x20\u043C\u0435\u043D\u044F\x2C\x20\u0433\u0434\u0435\x20\u043D\u0438\u0431\u0443\u0434\u044C\x20\u043D\u0430\x20\x6C\x61\x72\x61\x63\x61\x73\x74\x73\x2E\x63\x6F\x6D","\u041A\u0440\u044B\u043C\u0441\u043A\u0438\u0439\x20\u0444\u0435\u0434\u0435\u0440\u0430\u043B\u044C\u043D\u044B\u0439\x20\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\x2C\x20\u0444\x2E\x20\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0438\x20\u0438\x20\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0438","\x09\x09\u041E\u043F\u0435\u0440\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435\x20\u0441\u0438\u0441\u0442\u0435\u043C\u044B\x3A\x20\x55\x62\x75\x6E\x74\x75\x2C\x20\x46\x65\x64\x6F\x72\x61\x2C\x20\x4D\x61\x63\x4F\x73\x0A","\x09\x09\u0424\u0440\u0435\u0439\u043C\u0432\u043E\u0440\u043A\u0438\x3A\x20\x4C\x61\x72\x61\x76\x65\x6C\x2C\x53\x69\x6C\x65\x78\x2C\x59\x69\x69\x0A","\x09\x09\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B\x3A\x20\x50\x68\x70\x53\x74\x6F\x72\x6D\x2C\x53\x75\x62\x6C\x69\x6D\x65\x54\x65\x78\x74\x2C\x47\x69\x74","\x09\x09\u041F\u0440\u0438\u043A\u043B\u0430\u0434\u043D\u043E\u0435\x3A\x09\x09\x0A\x09\x09","\u042F\u0437\u044B\u043A\u0438\x3A\x20\x43\x2B\x2B\x2C\x4A\x61\x76\x61\x0A","\x09\x09\u0418\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B\x3A\x20\x56\x69\x73\x75\x61\x6C\x53\x74\x75\x64\x69\x6F\x2C\x49\x6E\x74\x65\x6C\x6C\x69\x4A\x20\x49\x44\x45\x41","\u041F\u043E\u0437\u0438\u0446\u0438\u044F\x3A\x20\x57\x65\x62\x20\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\x2E\x28\x31\x30\x2F\x32\x30\x31\x33\x20\x2D\x20\x30\x36\x2F\x32\x30\x31\x36\x29\x0A\x0A","\x09\x2A\x20\u0417\u0434\u0435\u0441\u044C\x20\u0443\x20\u043C\u0435\u043D\u044F\x20\u0431\u044B\u043B\x20\u043E\u043F\u044B\u0442\x20\u0441\x20\x47\x6F\x6F\x67\x6C\x65\x20\x4D\x61\x70\x73\x2C\x20\x4D\x56\x43\x2E\x0A","\x09\x2A\x20\u041E\u0442\u043A\u0440\u044B\u0442\u0438\u0435\x20\u0433\u043E\u0440\u043E\u0434\u0430\x20\u043D\u0430\x20\u043A\u0430\u0440\u0442\u0435\x20\u044D\u0442\u043E\x20\u043E\u0434\u043D\u0430\x20\u0438\u0437\x20\u043A\u0440\u0443\u043F\u043D\u044B\u0445\x20\u0432\u0435\u0449\u0435\u0439\x20\u043A\u043E\u0442\u043E\u0440\u0443\u044E\x20\u044F\x20\u0441\u0434\u0435\u043B\u0430\u043B\x20\u043D\u0430\x20\u0441\u0430\u0439\u0442\u0435\x2E\x0A","\x09\x2A\x20\u0420\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u043B\x20\x62\x61\x63\x6B\x65\x6E\x64\x20\u0434\u043B\u044F\x20\x74\x78\x74\x2E\x72\x70\x35\x2E\x72\x75\x0A","\u041F\u043E\u0437\u0438\u0446\u0438\u044F\x3A\x20\x57\x65\x62\x20\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\x2E\x28\x30\x37\x2F\x32\x30\x31\x36\x20\x2D\x20\u0441\u0435\u0439\u0447\u0430\u0441\x29\x0A\x0A","\x09\x2A\x20\u0420\u0430\u0431\u043E\u0442\u0430\u043B\x20\u043D\u0430\u0434\x20\u0431\u043E\u043B\u044C\u0448\u0438\u043C\x20\u043A\u043E\u043B\x2D\u0432\u043E\u043C\x20\u0434\u043E\u0440\u0430\u0431\u043E\u0442\u043E\u043A\x2C\x20\u043A\u043E\u0442\u043E\u0440\u044B\u0435\x20\u0432\u043A\u043B\u044E\u0447\u0430\u044E\u0442\x20\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E\x20\u0432\x20\u043F\u0440\u043E\u0444\u0438\u043B\u0435\x2C\x20\u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0430\x20\u0441\u0430\u0439\u0442\u0430\x20\u0438\x2E\u0442\x2E\u0434\x2E\x0A","\x09\x2A\x20\u0421\u0434\u0435\u043B\u0430\u043B\x20\x41\x50\x49\x20\u0434\u043B\u044F\x20\u043C\u043E\u0431\u0438\u043B\u044C\u043D\u043E\x20\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F\x20\x41\x70\x70\x6C\x79\x2E\x4D\x65\x28\x61\x70\x70\x6C\x79\x2E\x6D\x65\x29\x2E\x0A","\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6D\x6D\x61\x6E\x64\x73\x5F\x68\x65\x61\x64\x65\x72\x22\x3E\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u044B\u0435\x20\u043A\u043E\u043C\u043C\u0430\u043D\u0434\u044B\x3A\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x3C\x2F\x62\x72\x3E","\u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u0430\u044F\x20\u043A\u043E\u043C\u043C\u0430\u043D\u0434\u0430\x20","\x6B\x65\x79\x73","\x63\x6F\x75\x6E\x74","\x6C\x65\x6E\x67\x74\x68","\x70\x75\x73\x68","\x69\x6E\x69\x74","\x77\x68\x6F\x61\x6D\x69","\x63\x6F\x6E\x74\x61\x63\x74","\x70\x72\x6F\x6A\x65\x63\x74\x73","\x65\x78\x70\x65\x72\x69\x65\x6E\x63\x65","\x70\x72\x65\x70\x61\x72\x65\x4F\x62\x6A\x65\x63\x74","\x7B","\x65\x63\x68\x6F","\x09\x27","\x27\x20\x3D\x3E\x20","\x27","\x27\x2C","\x7D","\x65\x72\x72\x6F\x72","\x67\x72\x65\x65\x74\x69\x6E\x67\x73","\x67\x75\x65\x73\x74\x7E\x69\x66\x61\x69\x73\x74\x2E\x63\x6F\x6D\x24\x3E\x20","\x74\x65\x72\x6D\x69\x6E\x61\x6C","\x62\x6F\x64\x79","\x72\x65\x61\x64\x79"];jQuery(document)[_0x29bb[100]](function(_0xaaa8x1){setTimeout(function(){_0xaaa8x1(_0x29bb[3])[_0x29bb[2]](5000,function(){_0xaaa8x1(_0x29bb[1])[_0x29bb[0]]()})},5000);var _0xaaa8x2={currLang:_0x29bb[4],init:function(){var _0xaaa8x3=window[_0x29bb[6]][_0x29bb[5]];if(_0xaaa8x3!= _0x29bb[7]){this[_0x29bb[8]]= _0x29bb[9]};_0xaaa8x1(_0x29bb[13])[_0x29bb[12]](_0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0x29bb[10]])},lang:{en:{greetings:_0x29bb[14],whoami:{"\x46\x75\x6C\x6C\x20\x6E\x61\x6D\x65":_0x29bb[15],Age:_0x29bb[16],Location:_0x29bb[17],Languages:_0x29bb[18],"\x41\x62\x6F\x75\x74\x20\x4D\x65":_0x29bb[19]+ _0x29bb[20]+ _0x29bb[21],Education:_0x29bb[22],Skills:_0x29bb[23]+ _0x29bb[24]+ _0x29bb[25]+ _0x29bb[26]+ _0x29bb[27]+ _0x29bb[28]+ _0x29bb[23]+ _0x29bb[23]+ _0x29bb[29]+ _0x29bb[30]+ _0x29bb[31]+ _0x29bb[32]},contact:{Facebook:_0x29bb[33],Twitter:_0x29bb[34],Vk:_0x29bb[35],Email:_0x29bb[36]},projects:{"\x4D\x79\x20\x57\x65\x62\x73\x69\x74\x65":_0x29bb[37],ApplicationAPI:_0x29bb[38],Captcha:_0x29bb[39]},experience:{"\x52\x50\x35\x2E\x52\x55":_0x29bb[40]+ _0x29bb[41]+ _0x29bb[42]+ _0x29bb[43]+ _0x29bb[44],"\x53\x43\x48\x4F\x4C\x41\x52\x53\x48\x49\x50\x4F\x57\x4C\x2E\x43\x4F\x4D":_0x29bb[45]+ _0x29bb[46]+ _0x29bb[47]+ _0x29bb[44]},help:_0x29bb[48]+ _0x29bb[49]+ _0x29bb[50]+ _0x29bb[51]+ _0x29bb[52],error:_0x29bb[53]},ru:{greetings:_0x29bb[54],whoami:{"\u0424\u0418\u041E":_0x29bb[55],"\u0412\u043E\u0437\u0440\u0430\u0441\u0442":_0x29bb[56],"\u041C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435":_0x29bb[57],"\u042F\u0437\u044B\u043A\u0438":_0x29bb[58],"\u041E\u0431\u043E\x20\u043C\u043D\u0435":_0x29bb[59]+ _0x29bb[60]+ _0x29bb[61],"\u041E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435":_0x29bb[62],"\u041D\u0430\u0432\u044B\u043A\u0438":_0x29bb[23]+ _0x29bb[24]+ _0x29bb[25]+ _0x29bb[63]+ _0x29bb[64]+ _0x29bb[65]+ _0x29bb[23]+ _0x29bb[23]+ _0x29bb[66]+ _0x29bb[67]+ _0x29bb[68]+ _0x29bb[32]},contact:{Facebook:_0x29bb[33],Twitter:_0x29bb[34],Vk:_0x29bb[35],Email:_0x29bb[36]},projects:{"\u041C\u043E\u0439\x20\u0441\u0430\u0439\u0442":_0x29bb[37],"\x41\x50\x49\x20\u0434\u043B\u044F\x20\u043C\u043E\u0431\u0438\u043B\u044C\u043D\u043E\u0433\u043E\x20\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F":_0x29bb[38],"\u041A\u0430\u043F\u0447\u0430":_0x29bb[39]},experience:{"\x52\x50\x35\x2E\x52\x55":_0x29bb[69]+ _0x29bb[70]+ _0x29bb[71]+ _0x29bb[72]+ _0x29bb[44],"\x53\x43\x48\x4F\x4C\x41\x52\x53\x48\x49\x50\x4F\x57\x4C\x2E\x43\x4F\x4D":_0x29bb[73]+ _0x29bb[74]+ _0x29bb[75]+ _0x29bb[44]},help:_0x29bb[76]+ _0x29bb[49]+ _0x29bb[50]+ _0x29bb[51]+ _0x29bb[52],error:_0x29bb[77]}},keys:[],count:[],prepareObject:function(_0xaaa8x4){_0xaaa8x2[_0x29bb[78]]= [];_0xaaa8x2[_0x29bb[79]]= [];_0xaaa8x2[_0x29bb[79]]= Object[_0x29bb[78]](_0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0xaaa8x4])[_0x29bb[80]];for(var _0xaaa8x5 in _0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0xaaa8x4]){_0xaaa8x2[_0x29bb[78]][_0x29bb[81]](_0xaaa8x5)}}};_0xaaa8x2[_0x29bb[82]]();_0xaaa8x1(_0x29bb[99])[_0x29bb[98]](function(_0xaaa8x6,_0xaaa8x7){if(_0xaaa8x6== _0x29bb[83]|| _0xaaa8x6== _0x29bb[84]|| _0xaaa8x6== _0x29bb[85]|| _0xaaa8x6== _0x29bb[86]){_0xaaa8x2[_0x29bb[87]](_0xaaa8x6);_0xaaa8x7[_0x29bb[89]](_0x29bb[88]);for(var _0xaaa8x8=0;_0xaaa8x8< _0xaaa8x2[_0x29bb[79]];_0xaaa8x8++){_0xaaa8x8!= _0xaaa8x2[_0x29bb[79]]- 1?_0xaaa8x7[_0x29bb[89]](_0x29bb[90]+ _0xaaa8x2[_0x29bb[78]][_0xaaa8x8]+ _0x29bb[91]+ _0x29bb[92]+ _0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0xaaa8x6][_0xaaa8x2[_0x29bb[78]][_0xaaa8x8]]+ _0x29bb[93]):_0xaaa8x7[_0x29bb[89]](_0x29bb[90]+ _0xaaa8x2[_0x29bb[78]][_0xaaa8x8]+ _0x29bb[91]+ _0x29bb[92]+ _0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0xaaa8x6][_0xaaa8x2[_0x29bb[78]][_0xaaa8x8]]+ _0x29bb[92])};_0xaaa8x7[_0x29bb[89]](_0x29bb[94])}else {_0xaaa8x7[_0x29bb[89]](_0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0x29bb[95]]+ _0xaaa8x6+ _0x29bb[92])}},{greetings:_0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0x29bb[96]],onBlur:function(){return false},onClear:function(_0xaaa8x7){_0xaaa8x7[_0x29bb[89]](_0xaaa8x2[_0x29bb[11]][_0xaaa8x2[_0x29bb[8]]][_0x29bb[96]])},prompt:_0x29bb[97],convertLinks:true})})
+jQuery(document).ready(function($) {
+    setTimeout(function() {
+        $('#preloader').fadeOut(3000, function() {
+            $('.container').hide();
+        });
+    }, 3000);
+
+    var config = {
+        currLang : 'en',
+        init : function() {
+            let d = new Date();
+            config.lang.en.whoami.Age = d.getFullYear() - 1993;
+            $('#help').html(config.lang[config.currLang].help);
+        },
+        lang : {
+            en : {
+                greetings : 'Hi! Want to know about me? Just type what are you looking for?',
+                whoami : {
+                    'Full name' : 'Faist Ilya',
+                    Age : '',
+                    Location : 'Russia, Krasnodar',
+                    Languages :  'English,German,Russian',
+                    'About Me' : 'I am a passionate Site Reliability Engineer with 7 years experience.\n\t\t' +
+                    'Trying to follow S.O.L.I.D and KISS code. Use all the latest features if I can.\n\t\t' +
+                    'Love DevOps. In my free time you can find me somewhere on laracasts.com',
+                    Education : 'CRIMEAN FEDERAL UNIVERSITY, B.Sc. Mathematics and Informatics.',
+                    Skills : '\n\t\t====================================================\n' +
+                    '\t\tWEB:\t\t\n\t\t' +
+                    'Html5, Css3, JavaScript, Jquery, Ajax, VueJs, NodeJs, PHP7, Doctrine2, Mysql, Laravel\n' +
+                    '\t\tDevOps: Jenkins, Helm, Kubernetes, GC, Docker, Capistrano\n' +
+                    '\t\tOS: Ubuntu, Fedora, MacOs\n' +
+                    '\t\tFrameworks: Laravel, Silex, Symphony\n' +
+                    '\t\tInstruments: PhpStorm, Atom, Git' +
+                    '\n\t\t====================================================\n' +
+                    '\n\t\t====================================================\n' +
+                    '\t\tApplication:\t\t\n\t\t' +
+                    'Languages: C++, Java\n' +
+                    '\t\tInstruments: VisualStudio, IntelliJ IDEA' +
+                    '\n\t\t===================================================='
+                },
+                contact : {
+                    Facebook : 'https://www.facebook.com/cl8vm1nd',
+                    Twitter : 'https://twitter.com/cl8vm1nd',
+                    Vk : 'https://vk.com/cl8vm1nd',
+                    Email : 'clevmind@gmail.com'
+                },
+                projects : {
+                    Website : 'https://ifaist.com',
+                    Blog: 'https://blog.ifaist.com',
+                    ApplicationAPI : 'https://github.com/Cl8vM1nd/PhoneApi',
+                    Captcha : 'https://github.com/Cl8vM1nd/captcha'
+                },
+                experience : {
+                    'RP5.RU' : 'Position: Backend Developer.(10/2013 - 06/2016)\n\n' +
+                    '\t* Here I had experience with Google Maps, MVC.\n' +
+                    '\t* Open city on Map, this is one of the features which I had implemented.\n' +
+                    '\t* Developed backend part for txt.rp5.ru\n' +
+                    '\t====================================================\n',
+                    'SCHOLARSHIPOWL.COM' : 'Position: Site Reliability Engineer.(07/2016 - now)\n\n' +
+                    '\t* Work and optimise scholarshipowl.com backend.\n' +
+                    '\t* Made REST API for apply.me application(apply.me).\n' +
+                    '\t* Deal with infrastructure tasks.\n' +
+                    '\t====================================================\n'
+                },
+                help : ' <span class="commands_header">Available Commands: </span> </br>' +
+                '- whoami</br>' +
+                '- experience</br>' +
+                '- projects</br>' +
+                '- contact',
+                error : 'Unknown command: '
+            },
+        },
+        keys : [],
+        count : [],
+        prepareObject : function(object) {
+            config.keys  = [];
+            config.count = [];
+            config.count = Object.keys(config.lang[config.currLang][object]).length;
+            for(var obj in config.lang[config.currLang][object]) config.keys.push(obj);
+        }
+    };
+
+    config.init();
+
+    $('body').terminal(function(command, term) {
+        if (command == 'whoami'   ||
+            command == 'contact'  ||
+            command == 'experience' ||
+            command == 'projects') {
+            config.prepareObject(command);
+            term.echo('{');
+            for (var i = 0; i < config.count; i++) {
+                i != config.count - 1 ?
+                term.echo("\t'" + config.keys[i] + "' => " + "'" + config.lang[config.currLang][command][config.keys[i]] + "',") :
+                term.echo("\t'" + config.keys[i] + "' => " + "'" + config.lang[config.currLang][command][config.keys[i]] + "'");
+            }
+            term.echo('}');
+        } else {
+            term.echo(config.lang[config.currLang].error + command + "'");
+        }
+    }, {
+        greetings: config.lang[config.currLang].greetings,
+        onBlur: function() {
+            // prevent loosing focus
+            return false;
+        },
+        onClear: function(term) {
+          term.echo(config.lang[config.currLang].greetings);
+        },
+        onAfterCommand: function(command) {
+          $("html, body").animate({ scrollTop: $(document).height()-$(window).height() + 1000 }, "slow");
+        },
+        prompt: 'guest~ifaist.com$> ',
+        convertLinks : true
+    });
+});
