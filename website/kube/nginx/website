@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name ifaist.com www.ifaist.com xn--80aq1aeg.xn--p1ai www.xn--80aq1aeg.xn--p1ai;
+    server_name ifaist.com www.ifaist.com;
     root "/var/www/website";
 
     index index.html;
