@@ -1,9 +1,6 @@
 FROM ubuntu:16.04
 
-# File Author / Maintainer
-MAINTAINER clevmind@yandex.ru
-
-RUN apt-get -y update && apt-get install -y
+LABEL maintainer="cl8vm1nd<cl8vm1nd@gmail.com>"
 
 # Install necessary tools
 RUN apt-get install -y wget vim dialog net-tools software-properties-common
@@ -19,8 +16,8 @@ RUN apt-get install -y nginx
 RUN mkdir -p /var/www/website
 
 # Copy website files
-COPY website/ /var/www/website
-COPY dev/nginx/website /etc/nginx/sites-enabled/website
+COPY . /var/www/website
+COPY kube/nginx/website /etc/nginx/sites-enabled/website
 
 # Expose ports
 EXPOSE 80
